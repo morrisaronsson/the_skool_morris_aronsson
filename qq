@@ -1,0 +1,71 @@
+oracle-free
+
+[1mName[m              [1mNull?[m    [1mType[m             
+_________________ ________ ________________ 
+YRKESHÖGSKOLAN             VARCHAR2(256)    
+COLUMN2                    VARCHAR2(26)     
+COLUMN3                    VARCHAR2(128)    
+COLUMN4                    VARCHAR2(128)    
+COLUMN5                    VARCHAR2(26)     
+COLUMN6                    VARCHAR2(26)     
+COLUMN7                    VARCHAR2(26)     
+COLUMN8                    VARCHAR2(26)     
+COLUMN9                    VARCHAR2(26)     
+COLUMN10                   VARCHAR2(26)     
+COLUMN11                   VARCHAR2(26)     
+COLUMN12                   VARCHAR2(26)     
+COLUMN13                   VARCHAR2(26)     
+COLUMN14                   VARCHAR2(128)    
+COLUMN15                   VARCHAR2(26)     
+COLUMN16                   VARCHAR2(128)    
+COLUMN17                   VARCHAR2(128)    
+COLUMN18                   VARCHAR2(26)     
+COLUMN19                   VARCHAR2(128)    
+COLUMN20                   VARCHAR2(128)    
+COLUMN21                   VARCHAR2(128)    
+COLUMN22                   VARCHAR2(128)    
+COLUMN23                   VARCHAR2(128)    
+COLUMN24                   VARCHAR2(128)    
+COLUMN25                   VARCHAR2(128)    
+COLUMN26                   VARCHAR2(128)    
+COLUMN27                   VARCHAR2(128)    
+COLUMN28                   VARCHAR2(128)    
+
+Error starting at line : 5 File @ /work/1_uppgift.sql
+In command -
+SELECT
+
+Error at Command Line : 5 Column : 6 File @ /work/1_uppgift.sql
+Error report -
+SQL Error: ORA-00936: missing expression
+Help: https://docs.oracle.com/error-help/db/ora-00936/
+
+Error starting at line : 7 File @ /work/1_uppgift.sql
+In command -
+COLUMN4 AS utbildningsnamn
+Error report -
+Unknown Command
+
+
+Error starting at line : 8 File @ /work/1_uppgift.sql
+In command -
+COLUMN5 AS beslut
+Error report -
+Unknown Command
+
+
+Error starting at line : 10 File @ /work/1_uppgift.sql
+In command -
+FROM YH
+Error report -
+Unknown Command
+
+
+Error starting at line : 11 File @ /work/1_uppgift.sql
+In command -
+FETCH FIRST 10 ROWS ONLY
+Error report -
+Unknown Command
+
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
