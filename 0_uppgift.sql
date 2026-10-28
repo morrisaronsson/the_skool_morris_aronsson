@@ -2,7 +2,7 @@
 
 SET LOADFORMAT XLSX
 
-LOAD TABLE yhtabell 'resultat-ansokningsomgang-2025.xlsx' NEW
+LOAD TABLE  yh2025 'resultat-ansokningsomgang-2025.xlsx' NEW
 
 COMMIT;
 
