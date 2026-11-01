@@ -58,7 +58,7 @@ GROUP BY COLUMN12
 ORDER BY beviljandechans DESC;
 
 
--- Fråga 5: Var finns det mest konkurans i form av geografisk plats? Var kan det finnas behov?
+-- Fråga 5: Var finns det mest konkurans i form av geografisk plats? Var kan det finnas behov?
 
 SELECT 
     COLUMN10 AS kommun,
@@ -67,7 +67,8 @@ FROM SYSTEM.YH2025
 WHERE COLUMN5 = 'Beviljad'
 GROUP BY COLUMN10 
 ORDER BY antal_beviljade_utbildningar ASC
-FETCH FIRST 10 ROWS ONLY;
+--FETCH FIRST 10 ROWS ONLY
+;
 
 
 
