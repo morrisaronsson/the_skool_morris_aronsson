@@ -4,7 +4,7 @@ THE SKOOL
 
 0) Load table
 
-![Loadtable](/home/linton/Documents/github/the_skool_morris_aronsson/Screenshots/1_Screenshot)
+![Loadtable](/Screenshots/1_Screenshot)
 
 Ladda ner tabellen och se till att sedan ta bort allt förutom tabell 3. Jag tog även bort texten som stod i början bara för att göra det enklare att arbeta med. Sedan överförde jag tabellen till min Linux med hjälp av SCP. I skriptet satte jag loadformat till XLSX eftersom det är ett excell dokument.
 Jag gav den namnen yh2025 och commitade, sen avslutar jag skriptet med exit.
