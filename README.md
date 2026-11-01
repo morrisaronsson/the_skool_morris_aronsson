@@ -11,7 +11,7 @@ Jag gav den namnen yh2025 och commitade, sen avslutar jag skriptet med exit.
 
 UPPGIFT 1
 
-![select](/home/linton/Documents/github/the_skool_morris_aronsson/Screenshots/2_Screenshot.png)
+![select](/Screenshots/2_Screenshot.png)
 
 a) Jag använder SELECT för att välja vilka columner som ska användas i sökningen. Tabellen namngav inte columnerna automatiskt, så jag skrev dem som "AS" och det korrekta namnet för att det ska synas i sökningen.
 Man kan även använda ALTER för att byta rätt på alla namnen, men jag tänkte att det kan ha varit tanken bakom övningen att inte göra det så jag lät det vara som det är. 
@@ -27,7 +27,7 @@ Jag anväde WHERE för att specificera 'Beviljad' eller 'Avslag' beroende på va
  
 h) Här använde jag THEN 1 för att räkna antalen bunden mot distans. Om det är bundet eller distans så retuneras siffran 1. Om det inte stämmer så retuneras NULL. COUNT räknar sedan värdena. 
 
-![Distinct](/home/linton/Documents/github/the_skool_morris_aronsson/Screenshots/3_Screenshot)
+![Distinct](/Screenshots/3_Screenshot.png)
 
 i) Här använder jag Distinct för att ta unika namn, så att inte två eller fler med samma namn räknas. 
 Jag använder UPPER för att förvandla namnen till stora bokstäver före jag söker så den räknar variationer av AI, som tex ai eller Ai. 
@@ -49,7 +49,7 @@ I fråga 5 listade jag antalen beviljade utbildningar efter kommunerna. Jag satt
 
 UPPGIFT 4
 
-![Create_table](/home/linton/Documents/github/the_skool_morris_aronsson/Screenshots/4_Screenshot)
+![Create_table](/Screenshots/4_Screenshot.png)
 
 Jag delade upp denna i 3 delar. 
 1) Först skapade jag de olika tabellerna enligt modellen ni gav mig. Viktigt är att skapa dem i rätt ordning, då de knyts samman via constraints och foreign keys mellan tabellerna.  
@@ -57,7 +57,7 @@ Som i bilden här, jag skapar först tabellen utbildningsområdet. Sedan skapar 
 
 2) Sedan skrev jag upp de olika tabellerna och använde LLM för att översätta excell arkets första 20 rader in i tabellerna. 
 
-![Explore](/home/linton/Documents/github/the_skool_morris_aronsson/Screenshots/5_Screenshot)
+![Explore](/Screenshots/5_Screenshot.png)
 
 3) Därefter gjorde jag samma sökningar som i uppgift 1, men anpassat efter denna tabell. Då använder jag join för att sätta ihop flera olika tabeller och få fram resultatet på så sätt. En skillnad på första sökningen är att jag inte behövde använda REGEXP då informationen är korrekt insatt nu. 
 Ytterligare en skillnad är att jag inte måste använda Columner och namnge dem genom AS eftersom de alla är korrekta nu. 
